@@ -26,7 +26,14 @@ Split2Ops engineers high-performance, deterministic systems across sovereign AI 
    │          TALX            │                    │       SSXL ENGINE        │
    │ Autonomous Swarm Kernel  │                    │ Generative Simulation    │
    │ & Hybrid LLM Orchestrator│                    │ & GPU-First Game Engine  │
-   └──────────────────────────┘                    └──────────────────────────┘
+   └──────────────────────────┘                    └─────────────┬────────────┘
+                                                                 │
+                                                   ┌─────────────┴────────────┐
+                                                   ▼                          ▼
+                                       ┌───────────────────────┐  ┌───────────────────────┐
+                                       │      SSXL EDITOR      │  │     SSXL SHOWCASE     │
+                                       │   Full Engine Suite   │  │ Standalone Pacman Demo│
+                                       └───────────────────────┘  └───────────────────────┘
 ```
 
 ---
@@ -53,6 +60,7 @@ Split2Ops engineers high-performance, deterministic systems across sovereign AI 
 - **Integrated Editor UI:** Complete SceneTree hierarchy, interactive Viewport canvas, and dynamic real-time Component Inspector.
 - **Substrate Execution Model:** GPU-driven procedural computation, compute shader pipelines, and low-latency tick cycles.
 - **Turnkey Reference Showcase:** Bundled with the official **SSXL Pacman Showcase** featuring 10 custom play modes demonstrating engine systems, input pipelines, and dynamic render passes.
+- **Standalone Showcase Demo:** Available as a direct standalone executable ([`ssxl-pacman-demo.exe`](https://github.com/zv9games/s2o/releases/download/PACMAN/ssxl-pacman-demo.exe)) showcasing 10 game modes with zero prerequisites or engine installation required.
 
 ---
 
@@ -76,6 +84,7 @@ Each release published to `s2o` is compiled under native release optimization (`
 ### Download Directory:
 - **`0.1.0TALX-BETA1.exe`**: Complete sovereign AI desktop kernel with native uninstaller registration and desktop shortcuts.
 - **`0.2.0SSXL-BETA2.exe`**: Complete GPU simulation editor, runtime tools, and reference projects.
+- **[`ssxl-pacman-demo.exe`](https://github.com/zv9games/s2o/releases/download/PACMAN/ssxl-pacman-demo.exe)**: Standalone 10-mode SSXL reference showcase demo (Pacman simulation, input pipelines, and dynamic render passes).
 
 ---
 
@@ -87,6 +96,7 @@ All official binaries are cryptographically mapped. Verify release checksums aga
 # Verify SHA256 integrity on Windows
 Get-FileHash -Algorithm SHA256 .\0.1.0TALX-BETA1.exe
 Get-FileHash -Algorithm SHA256 .\0.2.0SSXL-BETA2.exe
+Get-FileHash -Algorithm SHA256 .\ssxl-pacman-demo.exe
 ```
 
 ---
