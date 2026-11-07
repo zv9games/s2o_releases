@@ -62,7 +62,7 @@ Software across the Split2Ops ecosystem is distributed across four distinct oper
 
 | Tier | Status | Focus & Description |
 | :--- | :---: | :--- |
-| **S2O-EVAL / BETA** | **Active Now** | Public preview binaries and installers. Includes evaluation windows (such as the 21-day TALX kernel seat and SSXL showcase builds) for testing, diagnostics, and architecture audits. |
+| **S2O-BETA** | **Active Now** | Public preview binaries and installers. Includes evaluation windows (such as the 21-day TALX kernel seat and SSXL showcase builds) for testing, diagnostics, and architecture audits. |
 | **S2O-COMMUNITY** | *Coming Soon* | Free non-commercial and indie creation tier featuring standardized runtimes, local LLM tooling, community plugins, and runtime export capability. |
 | **S2O-PRO** | *Coming Soon* | Production-grade software distributions with extended profiling toolchains, priority target export modules, and advanced compute pipelines. |
 | **S2O-FOUNDER** | *Invite / Direct* | Sovereign early-adopter tier featuring direct engine architectural previews, enterprise swarm clustering, custom template modules, and bespoke synthesis hooks. |
@@ -74,8 +74,8 @@ Software across the Split2Ops ecosystem is distributed across four distinct oper
 Each release published to `s2o` is compiled under native release optimization (`opt-level = 3`, `lto = "fat"`, stripped symbol tables) and packaged into tamper-safe Windows installers.
 
 ### Download Directory:
-- **`TALX-Setup.exe`**: Complete sovereign AI desktop kernel with native uninstaller registration and desktop shortcuts.
-- **`SSXL-Setup.exe` / `SSXL-Editor.zip`**: Complete GPU simulation editor, runtime tools, and reference projects.
+- **`0.1.0TALX-BETA1.exe`**: Complete sovereign AI desktop kernel with native uninstaller registration and desktop shortcuts.
+- **`0.2.0SSXL-BETA2.exe` / `SSXL-Editor.zip`**: Complete GPU simulation editor, runtime tools, and reference projects.
 
 ---
 
@@ -85,8 +85,8 @@ All official binaries are cryptographically mapped. Verify release checksums aga
 
 ```powershell
 # Verify SHA256 integrity on Windows
-Get-FileHash -Algorithm SHA256 .\TALX-Setup.exe
-Get-FileHash -Algorithm SHA256 .\SSXL-Setup.exe
+Get-FileHash -Algorithm SHA256 .\0.1.0TALX-BETA1.exe
+Get-FileHash -Algorithm SHA256 .\0.2.0SSXL-BETA2.exe
 ```
 
 ---
