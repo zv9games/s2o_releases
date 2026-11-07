@@ -75,7 +75,7 @@ Each release published to `s2o` is compiled under native release optimization (`
 
 ### Download Directory:
 - **`0.1.0TALX-BETA1.exe`**: Complete sovereign AI desktop kernel with native uninstaller registration and desktop shortcuts.
-- **`0.2.0SSXL-BETA2.exe` / `SSXL-Editor.zip`**: Complete GPU simulation editor, runtime tools, and reference projects.
+- **`0.2.0SSXL-BETA2.exe`**: Complete GPU simulation editor, runtime tools, and reference projects.
 
 ---
 
