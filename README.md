@@ -83,6 +83,7 @@ As the core sovereign monolith progresses through its foundational build stages 
 - **Aegis Sovereign Security:** High-performance network defense and telemetry fabric.
 
 ---
+(S2O_ASSET_v1) aa8a484045ce30f0ce76618617c3224d0c617eb6bb633d0254add015df36b4dd (Key ID: C16D5F8D661442DC)
 
 ## ⚖️ License & Corporation Notice
 
